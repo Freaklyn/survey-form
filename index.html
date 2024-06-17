@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+    <h2>CapacityBay Survey Form</h2>
+    <p>Thank you for taking the time to help us improve the platform</p></div>
+        <form action="mailto:frankrian318@gmail.com" method="post">
+            <p class="fill">
+            <label for="name"> Name</label> <br>
+        <input type="text" class="display" name="fname" placeholder="Enter your name" required> <br>
+    </p> 
+        <p class="fill"> 
+             <label for="email">Email</label> <br>
+        <input type="text" class="display" name="email" placeholder="Enter your email" required> <br>
+    </p>  
+    <p class="fill">
+        <label for="age">Age (optional)</label><br>
+        <input type="text" class="display" name="age" placeholder="Age" required> <br>
+    </p>
+    <p class="fill">
+        <label for="role">Which option best describe your current role?</label> <br>
+        <select name="" id="choices">
+            <option value="">Select Current role</option>
+            <option value="">Student</option>
+            <option value="">Full Time Job</option>
+            <option value="">Full Time Learner</option>
+            <option value="">Prefer not to say</option>
+            <option value="">Others</option>
+        </select>
+    </p>
+    <p class="fill">
+        <label for="wide"> Would you recommend CapacityBay to a friend?</label><br>
+        <input type="radio" name="myradio" value="">    Definitely <br>
+        <input type="radio" name="myradio" value=""> Maybe <br>
+        <input type="radio" name="myradio" value=""> Not Sure <br>
+
+    </p>
+    <p class="fill" id="features">
+        <label for="features">Which is your favorite features of CapacityBay?</label><br>
+        <select name="" id="feats">
+            <option value="">Select an option</option>
+            <option value="">Challenges</option>
+            <option value="">Projects</option>
+            <option value="">Community</option>
+            <option value="">Open Source</option>
+        </select>
+    </p>
+    <p class="fill">
+        <label for="improve"> What would you like to see improved? <caption>(Check all that apply)</caption></label><br>
+        <input type="checkbox"><label for=""> Front-end Projects</label> <br>
+        <input type="checkbox"><label for="">Back-end Projects</label><br>
+        <input type="checkbox"><label for="">Data Visualization</label><br>
+        <input type="checkbox"><label for="">Challenges</label><br>
+        <input type="checkbox"><label for="">Open Source Community</label><br>
+        <input type="checkbox"><label for="">Gitter help rooms</label><br>
+        <input type="checkbox"><label for="">Videos</label><br>
+        <input type="checkbox"><label for="">City Meetups</label><br>
+        <input type="checkbox"><label for="">Wiki</label><br>
+        <input type="checkbox"><label for="">Forum</label><br>
+        <input type="checkbox"><label for="">Additional Courses</label><br>
+    </p>
+    <p class="fill">
+        <label for="">Any comments or suggestions?</label><br>
+        <textarea name="message" id="" cols="60" rows="8" placeholder="Enter your comments here.."></textarea> 
+    </p>
+   <button class="fill">
+    Submit
+   </button>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
